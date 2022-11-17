@@ -1,24 +1,6 @@
-2022-11-11 18:07:22,156: STREAM b'IHDR' 16 13
-2022-11-11 18:07:22,156: STREAM b'sRGB' 41 1
-2022-11-11 18:07:22,156: STREAM b'gAMA' 54 4
-2022-11-11 18:07:22,157: STREAM b'pHYs' 70 9
-2022-11-11 18:07:22,157: STREAM b'IDAT' 91 65445
-2022-11-11 18:07:25,069: STREAM b'IHDR' 16 13
-2022-11-11 18:07:25,069: STREAM b'sRGB' 41 1
-2022-11-11 18:07:25,069: STREAM b'gAMA' 54 4
-2022-11-11 18:07:25,069: STREAM b'pHYs' 70 9
-2022-11-11 18:07:25,069: STREAM b'IDAT' 91 65445
-2022-11-11 18:07:25,097: STREAM b'IHDR' 16 13
-2022-11-11 18:07:25,097: STREAM b'sRGB' 41 1
-2022-11-11 18:07:25,097: STREAM b'gAMA' 54 4
-2022-11-11 18:07:25,097: STREAM b'pHYs' 70 9
-2022-11-11 18:07:25,097: STREAM b'IDAT' 91 65445
-2022-11-11 18:07:25,882: STREAM b'IHDR' 16 13
-2022-11-11 18:07:25,882: STREAM b'sRGB' 41 1
-2022-11-11 18:07:25,882: STREAM b'gAMA' 54 4
-2022-11-11 18:07:25,882: STREAM b'pHYs' 70 9
-2022-11-11 18:07:25,882: STREAM b'IDAT' 91 65445
-2022-11-11 18:09:48,636: STREAM b'IHDR' 16 13
-2022-11-11 18:09:48,636: STREAM b'IDAT' 41 65536
-2022-11-11 18:16:33,283: STREAM b'IHDR' 16 13
-2022-11-11 18:16:33,283: STREAM b'IDAT' 41 65536
+INFO:root:tile cannot extend outside image
+2022-11-17 10:29:36,828: tile cannot extend outside image
+2022-11-17 10:31:08,907: tile cannot extend outside image
+2022-11-17 10:31:09,347: C:\Program Files/Tesseract-OCR	esseract.exe is not installed or it's not in your PATH. See README file for more information.
+2022-11-17 10:31:09,760: C:\Program Files/Tesseract-OCR	esseract.exe is not installed or it's not in your PATH. See README file for more information.
+2022-11-17 10:31:10,172: C:\Program Files/Tesseract-OCR	esseract.exe is not installed or it's not in your PATH. See README file for more information.
