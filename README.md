@@ -24,10 +24,10 @@ you might need to give the app "Administrator rights" either wise it wont work (
 Whatever is inside the box. it will extract numbers from that area and add then only numbers. Means if there are values with minus sign or surrounded brackets will also be added
 
 ______________________________________________________________________________________________________________
-### Development:
+## Development:
 In python _with native programming skills_
 
-## Libraries Used:
+#### Libraries Used:
 
 tkinter, pytesseract, re, pyautogui, os, logging, PIL
 
