@@ -17,6 +17,8 @@ Make sure to install tseract OCR. The app wont work withou it
 
 The application is still underdevelopment
 
+If you see that app is not adding the values try and zoom in the screen then launch app.
+
 you might need to give the app "Administrator rights" either wise it wont work (will fix it later onwards)
 
 Whatever is inside the box. it will extract numbers from that area and add then only numbers. Means if there are values with minus sign or surrounded brackets will also be added
