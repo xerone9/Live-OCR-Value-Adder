@@ -4,3 +4,7 @@ INFO:root:tile cannot extend outside image
 2022-11-17 10:31:09,347: C:\Program Files/Tesseract-OCR	esseract.exe is not installed or it's not in your PATH. See README file for more information.
 2022-11-17 10:31:09,760: C:\Program Files/Tesseract-OCR	esseract.exe is not installed or it's not in your PATH. See README file for more information.
 2022-11-17 10:31:10,172: C:\Program Files/Tesseract-OCR	esseract.exe is not installed or it's not in your PATH. See README file for more information.
+2022-11-18 10:52:48,244: tile cannot extend outside image
+2022-11-18 10:52:48,269: tile cannot extend outside image
+2022-11-18 10:52:48,293: tile cannot extend outside image
+2022-11-18 10:52:48,318: tile cannot extend outside image
