@@ -10,7 +10,7 @@ Install the app and set the icon on your start bar. Whenever you need to make ca
 
 ## Requrements
 
-Make sure to install tseract OCR. The app wont work withou it
+Make sure to install tseract OCR. The app wont work without it
 
 
 ## Note:
