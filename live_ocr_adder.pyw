@@ -3,6 +3,8 @@ from pytesseract import pytesseract
 import re
 import pyautogui
 import os
+import tempfile
+import shutil
 import logging
 from PIL import Image, ImageTk
 
@@ -12,6 +14,7 @@ logging.basicConfig(filename="logs.txt", level=logging.INFO, format='%(asctime)s
 # Close App
 def kill_me(event):
     root.destroy()
+    shutil.rmtree(dirpath)
 
 
 # get cordinates from where you start drawing rectangle
@@ -44,10 +47,12 @@ def draw_rectangle(event):
             y1 = event.y
             y2 = starty
         area = (x1, y1, x2, y2)
-        img.crop(area).save("croped_portion.png")
+        global dirpath
+        dirpath = tempfile.mkdtemp()
+        img.crop(area).save(dirpath + "\\croped_portion.png")
 
         # cropped portion sent to OCR for analysis
-        filename = 'croped_portion.png'
+        filename = dirpath + '\\croped_portion.png'
         program_files_location = os.environ["ProgramFiles"]
         path_to_tesseract = program_files_location + "/Tesseract-OCR/tesseract.exe"
         pytesseract.tesseract_cmd = path_to_tesseract
